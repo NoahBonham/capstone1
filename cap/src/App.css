@@ -1,27 +1,144 @@
-.navbar1 {
-  text-align: left;
-  text-decoration: underline;
-  font-size: x-large;
-  position: fixed
-
+.change {
+  margin-bottom: 200px;
 }
 
-.navbar2 {
-  text-align: right;
-  text-decoration: underline;
+.review {
+  text-align: center;
+  padding: 20px;
+}
+
+.review h2 {
+  margin-bottom: 15px;
   font-size: x-large;
-  position: fixed;
-  top: 15px;
-  right: 10px;
+}
+
+.review form {
+  margin-bottom: 30px;
+}
+
+.review textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.review button {
+  padding: 10px 15px;
+  background-color: #212020;
+  color: white;
+  border: 1px solid yellow;
+  border-radius: 25px;
+}
+
+.comment-item {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.deletecomment {
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.review-item {
+  border: 1px solid #ddd;
+  padding: 15px; 
+  border-radius: 5px; 
+  background-color: #212020; 
+  margin-bottom: 20px;
+}
+
+
+
+.account-details {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center;
+  border: 1px solid yellow;
+  border-radius: 25px;
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;   
+  background-color: rgb(27, 26, 26);
+}
+
+.comment-textarea {
+    width: 250px;  
+    height: 60px; 
+    resize: none;  
+}
+
+.logoutbutton {
+  border: 1px solid yellow;
+  color: white;
+  background: #212020;
+}
+
+.formbutton {
+  border: 1px solid yellow;
+  border-radius: 15px;
+  color: white;
+  background: #212020;
+  margin-top: 15px;
+}
+
+.stock-graph {
+  text-align: center;
+}
+
+.deletebutton {
+  border: 1px solid red;
+}
+
+.navbar {
+  justify-content: space-between;
+  text-align: center;
+  border: 2px solid yellow;
+  font-size: xx-large;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 25px;
+  padding: 20px;
+}
+.navlink:hover {
+  text-decoration: underline;
 }
 
 .title {
   text-align: center;
+  font-size: xx-large;
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container2 {
+  text-align: center;
+  width: 300px;
+  margin: 10px;
+  border-radius: 25px;
+  border: 1px solid yellow;
 }
 
 .form {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
   text-align: center;
-  margin-top: 200px
+  border: 1px solid yellow;
+  border-radius: 25px;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;   
+  background-color: rgb(27, 26, 26);
 }
 
 .logo {
